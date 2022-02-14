@@ -22,7 +22,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='question',
             name='date_created',
-            field=models.DateTimeField(auto_now_add=True, default='Asia/Bishkek', verbose_name='Date Created'),
+            field=models.DateTimeField(auto_now_add=True, verbose_name='Date Created'),
             preserve_default=False,
         ),
     ]

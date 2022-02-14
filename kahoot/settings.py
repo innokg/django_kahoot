@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'kahoot.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'kahoot_db',
+        'NAME': 'kahoot_db_',
         'USER': 'hello',
         'PASSWORD': '1',
         'HOST': 'localhost',
